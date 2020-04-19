@@ -1,0 +1,28 @@
+# Создание конференции в Zoom
+
+
+###  Настройки программы
+
+Зайдите в настройки программы с помощью кнопки-шестеренки
+![](img/zoom-conference/zoom-conference-01.png){: style="height:65%;width:65%;margin-left:15%"}
+
+Во вкладке "Звук" отметьте галочки *Автоматически входить в аудиоконференцию с компьютера* и *Отключить звук моего микрофона при подключении к конференции*.
+![](img/zoom-conference/zoom-conference-02.png){: style="height:65%;width:65%;margin-left:15%"}
+![](img/zoom-conference/zoom-conference-03.png){: style="height:65%;width:65%;margin-left:15%"}
+
+###  Создание конференции
+
+На основной странице программы нажмите кнопку *Новая конференция*.
+![](img/zoom-conference/zoom-conference-04.png){: style="height:65%;width:65%;margin-left:15%"}
+
+В открывшемся окне нажмите кнопку *Безопасность* и снимите галочку с *Комната ожидания*.
+![](img/zoom-conference/zoom-conference-05.png){: style="height:65%;width:65%;margin-left:15%"}
+![](img/zoom-conference/zoom-conference-06.png){: style="height:65%;width:65%;margin-left:15%"}
+
+Нажав кнопку *I* в левом верхнем углу окна можно посмотреть идентификатор конференции, пароль и скопировать ссылку для входа в конференцию.
+![](img/zoom-conference/zoom-conference-07.png){: style="height:65%;width:65%;margin-left:15%"}
+![](img/zoom-conference/zoom-conference-08.png){: style="height:65%;width:65%;margin-left:15%"}
+
+###  Запись и сохранение конференции
+
+###  Управление участниками
