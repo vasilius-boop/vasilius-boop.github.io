@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Смена серверного сертификата в ContinentTLS - Записки о казначействе</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "\u0421\u043c\u0435\u043d\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u0430 \u0432 ContinentTLS", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    <h1 id="continenttls">Смена серверного сертификата в ContinentTLS</h1>
+<p>Скачайте новый серверный <a href="http://www.roskazna.ru/upload/iblock/73e/federalnoe-kaznacheystvo.crt">сертификат</a> для ГИИС "Электронный бюджет" в любую удобную папку.</p>
+<p>Запустите Континент TLS Клиент. Найти его можно на рабочем столе, с помощью поиска в меню "Пуск" или в системном трее.
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-01.png" style="height:95%;width:95%;margin-left:5%" />  </p>
+<p>В открывшемся окне перейдите в раздел <em>Сертификаты</em> (кнопка с изображением сургучной печати с лентой), далее зайдите во вкладку <em>Серверные сертификаты</em>
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-02.png" style="height:95%;width:95%;margin-left:5%" /><br />
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-03.png" style="height:95%;width:95%;margin-left:5%" />  </p>
+<p>Удалите старый сертификат отметив его и нажав кнопку <em>Удалить</em>
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-04.png" style="height:95%;width:95%;margin-left:5%" /><br />
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-05.png" style="height:95%;width:95%;margin-left:5%" />  </p>
+<p>Нажмите кнопку <em>Импортировать</em> и выберите новый сертификат
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-06.png" style="height:95%;width:95%;margin-left:5%" /><br />
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-07.png" style="height:95%;width:95%;margin-left:5%" /><br />
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-08.png" style="height:95%;width:95%;margin-left:5%" />  </p>
+<p>Убедитесь что все прошло успешно - в колонках <em>Статус сертификата</em> и <em>CRL</em> должно стоять <em>Действителен</em>
+<img alt="" src="../img/conttls-change-server-cert/conttls-change-server-cert-09.png" style="height:95%;width:95%;margin-left:5%" />  </p>
+
+  <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
