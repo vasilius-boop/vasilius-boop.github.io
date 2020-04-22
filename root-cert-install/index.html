@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Установка корневых сертификатов - Записки о казначействе</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043a\u043e\u0440\u043d\u0435\u0432\u044b\u0445 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0432", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    <h1 id="_1">Установка корневых сертификатов</h1>
+<p>Скачайте три действующих корневых сертификата:</p>
+<ul>
+<li><a href="http://crl.roskazna.ru/%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%93%D0%A3%D0%A6%20%D0%93%D0%9E%D0%A1%D0%A2%202012.crt">Минкомсвязь России</a></li>
+<li><a href="http://crl.roskazna.ru/%D0%9F%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%A3%D0%A6%20%D0%A4%D0%9A%20%D0%93%D0%9E%D0%A1%D0%A2%202012.crt">Федеральное казначейство от 19.11.2018</a></li>
+<li><a href="http://crl.roskazna.ru/%D0%9F%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%A3%D0%A6%20%D0%A4%D0%9A%20%D0%BE%D1%82%2005.02.2020.crt">Федеральное казначейство от 05.02.2020</a></li>
+</ul>
+<p>Следующие действия нужно выполнить по очереди с каждым из скачанных сертификатов.</p>
+<p>Откройте файл двойным кликом мыши и нажмите кнопку <em>Установить сертификат</em>
+<img alt="" src="../img/root-cert-install/root-cert-install-01.png" style="height:95%;width:95%;margin-left:15%" /><br />
+<img alt="" src="../img/root-cert-install/root-cert-install-02.png" style="height:65%;width:65%;margin-left:15%" />  </p>
+<p>Откроется мастер импорта сертификатов. Нажмите кнопку <em>Далее</em>
+<img alt="" src="../img/root-cert-install/root-cert-install-03.png" style="height:65%;width:65%;margin-left:15%" />  </p>
+<p>Выберите пункт <em>Поместить все сертификаты в следующее хранилище</em> и нажмите кнопку <em>Обзор</em>
+<img alt="" src="../img/root-cert-install/root-cert-install-04.png" style="height:65%;width:65%;margin-left:15%" /><br />
+<img alt="" src="../img/root-cert-install/root-cert-install-05.png" style="height:65%;width:65%;margin-left:15%" />  </p>
+<p>В открывшемся окне выберите хранилище <em>Доверенные корневые центры сертификации</em> и нажмите кнопку <em>Ок</em></p>
+<p><img alt="" src="../img/root-cert-install/root-cert-install-06.png" style="height:35%;width:35%;margin-left:35%" /><br />
+<img alt="" src="../img/root-cert-install/root-cert-install-07.png" style="height:35%;width:35%;margin-left:35%" />  </p>
+<p>Нажмите кнопку <em>Далее</em>, затем - <em>Готово</em>
+<img alt="" src="../img/root-cert-install/root-cert-install-08.png" style="height:65%;width:65%;margin-left:15%" /><br />
+<img alt="" src="../img/root-cert-install/root-cert-install-09.png" style="height:65%;width:65%;margin-left:15%" />  </p>
+<p>Появится предупреждение о безопасности, согласитесь с ним, нажав кнопку <em>Да</em>
+<img alt="" src="../img/root-cert-install/root-cert-install-10.png" style="height:65%;width:65%;margin-left:15%" />  </p>
+<p>Импорт сертификата завершен. Повторите эту процедуру для всех корневых сертификатов.
+<img alt="" src="../img/root-cert-install/root-cert-install-11.png" style="height:35%;width:35%;margin-left:35%" />  </p>
+
+  <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
