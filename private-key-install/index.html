@@ -15,7 +15,7 @@
     
     
       
-        <title>Установка корневых сертификатов - Записки о казначействе</title>
+        <title>Установка личного сертификата - Записки о казначействе</title>
       
     
     
@@ -84,7 +84,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Установка корневых сертификатов
+              Установка личного сертификата
             
           </span>
         </div>
@@ -216,11 +216,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../private-key-install/" title="Установка личного сертификата" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Установка личного сертификата" class="md-nav__link md-nav__link--active">
       Установка личного сертификата
     </a>
+    
   </li>
 
     
@@ -240,20 +249,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Установка корневых сертификатов" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../root-cert-install/" title="Установка корневых сертификатов" class="md-nav__link">
       Установка корневых сертификатов
     </a>
-    
   </li>
 
     
@@ -288,32 +288,27 @@
                   
                 
                 
-                <h1 id="_1">Установка корневых сертификатов</h1>
-<p>Скачайте три действующих корневых сертификата:</p>
-<ul>
-<li><a href="http://crl.roskazna.ru/%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%93%D0%A3%D0%A6%20%D0%93%D0%9E%D0%A1%D0%A2%202012.crt">Минкомсвязь России</a></li>
-<li><a href="http://crl.roskazna.ru/%D0%9F%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%A3%D0%A6%20%D0%A4%D0%9A%20%D0%93%D0%9E%D0%A1%D0%A2%202012.crt">Федеральное казначейство от 19.11.2018</a></li>
-<li><a href="http://crl.roskazna.ru/%D0%9F%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%A3%D0%A6%20%D0%A4%D0%9A%20%D0%BE%D1%82%2005.02.2020.crt">Федеральное казначейство от 05.02.2020</a></li>
-</ul>
-<p>Следующие действия нужно выполнить по очереди с каждым из скачанных сертификатов.</p>
-<p>Откройте файл двойным кликом мыши и нажмите кнопку <em>Установить сертификат</em>
-<img alt="" src="../img/root-cert-install/01.png" style="height:95%;width:95%;display: block;margin-left: auto;margin-right: auto" /><br />
-<img alt="" src="../img/root-cert-install/02.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>Откроется мастер импорта сертификатов. Нажмите кнопку <em>Далее</em>
-<img alt="" src="../img/root-cert-install/03.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>Выберите пункт <em>Поместить все сертификаты в следующее хранилище</em> и нажмите кнопку <em>Обзор</em>
-<img alt="" src="../img/root-cert-install/04.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
-<img alt="" src="../img/root-cert-install/05.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>В открывшемся окне выберите хранилище <em>Доверенные корневые центры сертификации</em> и нажмите кнопку <em>Ок</em></p>
-<p><img alt="" src="../img/root-cert-install/06.png" style="height:35%;width:35%;display: block;margin-left: auto;margin-right: auto" /><br />
-<img alt="" src="../img/root-cert-install/07.png" style="height:35%;width:35%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>Нажмите кнопку <em>Далее</em>, затем - <em>Готово</em>
-<img alt="" src="../img/root-cert-install/08.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
-<img alt="" src="../img/root-cert-install/09.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>Появится предупреждение о безопасности, согласитесь с ним, нажав кнопку <em>Да</em>
-<img alt="" src="../img/root-cert-install/10.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
-<p>Импорт сертификата завершен. Повторите эту процедуру для всех корневых сертификатов.
-<img alt="" src="../img/root-cert-install/11.png" style="height:35%;width:35%;display: block;margin-left: auto;margin-right: auto" />  </p>
+                <h1 id="_1">Установка личного сертификата</h1>
+<p>Установка личных сертификатов немного отличается от установки корневых сертификатов - нужно установить сертификат со ссылкой на закрытую часть ключа. </p>
+<p>Запустите панель управления КриптоПро и зайдите на вкладку <em>Сервис</em>
+<img alt="" src="../img/private-key-install/01.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
+<p>Нажмите кнопку <em>Установить личный сертификат</em>
+<img alt="" src="../img/private-key-install/02.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
+<img alt="" src="../img/private-key-install/03.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
+<p>С помощью кнопки <em>Обзор</em> выберите файл сертификата - обычно он находится на флешке с ключами
+<img alt="" src="../img/private-key-install/04.png" style="height:95%;width:95%;display: block;margin-left: auto;margin-right: auto" /><br />
+Дважды нажмите <em>Далее</em>
+<img alt="" src="../img/private-key-install/05.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
+<img alt="" src="../img/private-key-install/06.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
+<p>Отметьте галочку <em>Найти контейнер автоматически</em> и нажмите <em>Далее</em>
+<img alt="" src="../img/private-key-install/07.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
+<img alt="" src="../img/private-key-install/08.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
+<p>В следующем окне убедитесь, что в поле <em>Имя хранилища сертификатов</em> выбрано <em>Личное</em>. Нажмите <em>Далее</em>, затем <em>Готово</em>
+<img alt="" src="../img/private-key-install/09.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" /><br />
+<img alt="" src="../img/private-key-install/10.png" style="height:65%;width:65%;display: block;margin-left: auto;margin-right: auto" />  </p>
+<p>Введите пароль от контейнера
+<img alt="" src="../img/private-key-install/11.png" style="height:35%;width:35%;display: block;margin-left: auto;margin-right: auto" /><br />
+Сертификат установлен!</p>
                 
               
               
@@ -332,7 +327,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="">
         
-          <a href="../reissue-org-cert/" title="Создание повторного запроса на сертификат юридического лица" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../expired-container-revive/" title="Восстановление контейнера с истекшим сроком действия" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -341,11 +336,25 @@
                 <span class="md-footer-nav__direction">
                   Назад
                 </span>
-                Создание повторного запроса на сертификат юридического лица
+                Восстановление контейнера с истекшим сроком действия
               </div>
             </div>
           </a>
         
+        
+          <a href="../reissue-org-cert/" title="Создание повторного запроса на сертификат юридического лица" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Вперед
+                </span>
+                Создание повторного запроса на сертификат юридического лица
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
         
       </nav>
     </div>
